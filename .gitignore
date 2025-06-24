@@ -1,0 +1,22 @@
+cat <<EOF > .gitignore
+# 忽略模型文件
+*.pt
+*.onnx
+*.ckpt
+*.h5
+*.bin
+
+# 忽略本地 IDE 配置
+.idea/
+.vscode/
+.model/
+
+# 忽略模型文件夹
+model/
+
+# 忽略缓存、日志
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+EOF
